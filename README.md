@@ -55,9 +55,4 @@ This project leverages python 3.7 with the following packages:
 ![Algorithmic_trading](images/imports.png)
 
 
----
-## Contributors
 
-Israel Fernandez
-
----
