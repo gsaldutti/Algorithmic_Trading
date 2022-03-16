@@ -18,9 +18,11 @@ The performance of the baseline trading algorithm in this 1st phase is giving me
 # Tune the Baseline Trading Algorithm
 
 What impact resulted from increasing or decreasing the training window?
+
 When I modified the size of the training dataset slicing my data in diferent time periods I noticed this: When I lowered the time period the accuracy of the predictions was lower compaired when I increased the time period obtaining the best results with a 7 months time period  
 
 What impact resulted from increasing or decreasing either or both of the SMA windows?
+
 After modifying multiple times the SMA windows up and down I found that the best combo was the original one, short window 4 SMA and long window 100 SMA Giving me the best accuracy in the report and the best returns in the chart "Actual Returns VS Strategy Returns"
 
 ![Algorithmic_trading](images/7_month_plot.png)
