@@ -26,11 +26,12 @@ After modifying multiple times the SMA windows up and down I found that the best
 ![Algorithmic_trading](images/7_month_plot.png)
 
 # Evaluate a New Machine Learning Classifier
-For this phase of the project I choose the Logistic Regression classifier after I first tried the Decision tree classifier. I tried both but the best results came out from the LR
+For this phase of the project I choose the Logistic Regression classifier after I first tried the Decision Tree Classifier. I tried both, but the best results came out from the LR
 
 ![Algorithmic_trading](images/Decision_tree_plot.png)
 
 Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
+
 This model performs better at some points in the time period but at the end came down on the results and performs worst than my tuned trading algorithm
 
 # Conclusion 
