@@ -1,6 +1,6 @@
 # Algorithmic_Trading
 
-# Overview
+## Overview
 
 This project aims at deploying a trading bot capable of trading based on an algorithm which will execute buy and sell orders in accordance with a trading strategy
 
