@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims at deploying a trading bot capable of trading based on an algorithm which will execute buy and sell orders in accordance with a trading strategy
+This project aims at deploying a trading bot capable of trading, based on an algorithm which will execute buy and sell orders in accordance with a trading strategy
 
 I was provided with the dataset (emerging_markets_ohlcv.csv) file which was read by python and converted into a dataframe and filtered into two columns "Close and Actual Returns" calculated by the pct function and dropna to drop the nan values, after that I generated the trading signals with short and long windows SMA values. Then with the creation of the signals 1, -1, the buy order and -1 the sell order. I calculated the Strategy Returns by multipliyng the actual returns by the signal values
 
@@ -28,7 +28,7 @@ After modifying multiple times the SMA windows up and down, I found that the bes
 ![Algorithmic_trading](images/7_month_plot.png)
 
 # Evaluate a New Machine Learning Classifier
-For this phase of the project, I choose the Logistic Regression classifier, after I first tried the Decision Tree Classifier. I tried both, but the best results came out from the LR
+For this phase of the project, I choose the Logistic Regression classifier, after I first tried the Decision Tree Classifier. I tried both, but the best results came out from the Logistic Regression classifier
 
 ![Algorithmic_trading](images/Decision_tree_plot.png)
 
