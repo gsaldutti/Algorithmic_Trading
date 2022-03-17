@@ -4,7 +4,7 @@
 
 This project aims at deploying a trading bot capable of trading based on an algorithm which will execute buy and sell orders in accordance with a trading strategy
 
-I was provided with the dataset (emerging_markets_ohlcv.csv) file which was read by python and converted into a dataframe and filtered into two columns "Close and Actual Returns" calculated by the pct function and dropna to drop the nan values, after that I generated the trading signals with short and long windows SMA values. Then with the creation of the signals 1, -1, been 1 the buy order and -1 the sell order. I calculated the Strategy Returns by multipliyng the actual returns by the signal values
+I was provided with the dataset (emerging_markets_ohlcv.csv) file which was read by python and converted into a dataframe and filtered into two columns "Close and Actual Returns" calculated by the pct function and dropna to drop the nan values, after that I generated the trading signals with short and long windows SMA values. Then with the creation of the signals 1, -1, the buy order and -1 the sell order. I calculated the Strategy Returns by multipliyng the actual returns by the signal values
 
 ![Algorithmic_trading](images/Strategy_returns.png)
 
@@ -19,7 +19,7 @@ The performance of the baseline trading algorithm in this 1st phase is giving me
 
 What impact resulted from increasing or decreasing the training window?
 
-When I modified the size of the training dataset slicing my data in diferent time periods I noticed this: When I lowered the time period the accuracy of the predictions was lower compaired when I increased the time period obtaining the best results with a 7 month time period  
+When I modified the size of the training dataset, slicing my data in diferent time periods, I noticed that when I lowered the time period the accuracy of the predictions was lower compaired when I increased the time period obtaining the best results with a 7 month time period  
 
 What impact resulted from increasing or decreasing either or both of the SMA windows?
 
