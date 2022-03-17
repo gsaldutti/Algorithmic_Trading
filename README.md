@@ -25,7 +25,7 @@ What impact resulted from increasing or decreasing either or both of the SMA win
 
 After modifying multiple times the SMA windows up and down, I found that the best combo was the original one, short window 4 SMA and long window 100 SMA, giving me the best accuracy in the report and the best returns in the chart "Actual Returns VS Strategy Returns"
 
-![Algorithmic_trading](images/7_month_plot.png)
+![Algorithmic_trading](images/7-month-plot.png)
 
 # Evaluate a New Machine Learning Classifier
 For this phase of the project, I choose the Logistic Regression classifier, after I first tried the Decision Tree Classifier. I tried both, but the best results came out from the Logistic Regression classifier
